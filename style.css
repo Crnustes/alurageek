@@ -54,11 +54,13 @@ header {
 }
 .card button{
     float: right;
-    padding: 8px;
+    padding: 10px;
     background-color: #b4b4b4;
-    border-radius: 50%;
-    margin-top: -22px;
-    margin-right: 5px;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+
 }
 .card button:hover{
     background-color: red;
@@ -74,8 +76,7 @@ header {
     font-weight: 700;
 }
 .delete_product{
-    float: right;
-    width: 25px;
+    width: 20%;
 
 }
 .delete_product:hover{

@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 alt="${product.name}" class="image_produc">
             <h3 class="titulo_produc">${product.name}</h3>
             <p class="precio_produc">$${product.price}</p>
-            <button data-id="${product.id}"><img src="./icons/borrar.png" alt="" class="delete_product"></button>
+            <button data-id="${product.id}"><img src="./icons/borrar.png" alt="" class="delete_product">Eliminar</button>
             
         </div>
 
@@ -45,7 +45,6 @@ document.addEventListener("DOMContentLoaded", () => {
         productForm.reset();
     });
      fetchProducts();
-     
   productList.addEventListener('click', event => {
     if (event.target.tagName === 'BUTTON') {
       const productId = event.target.getAttribute('data-id');
