@@ -6,10 +6,10 @@ Sigue estos pasos para instalar el proyecto localmente.
 
 
 # Clonar el repositorio
-git clone https://github.com/tu-usuario/tu-proyecto.git
+git clone [https://github.com/tu-usuario/tu-proyecto.git](https://github.com/Crnustes/alurageek)
 
 # Entrar al directorio
-cd tu-proyecto
+cd NOMBRE.CARPETA
 
 # Instalar dependencias
 npm install -g json-server
