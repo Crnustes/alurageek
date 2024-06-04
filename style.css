@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: auto;
+    padding: 0;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+}
+.titulos{
+    font-weight: 700;
+    margin: 20px 30px 40px 30px;
+}
+
+header {
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.seccion_body{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-content: center;
+}
+.productos{
+    max-width: 60%;
+}
+
+.seccion_products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px 10px;
+}
+.card{
+    width: 250px;
+    background-color: #ffffff;
+    border: 1px solid #047b99;
+    color: #000000;
+    border-radius: 25px;
+    padding-bottom: 25px;
+}
+.card button{
+    float: right;
+    padding: 8px;
+    background-color: #b4b4b4;
+    border-radius: 50%;
+    margin-top: -22px;
+    margin-right: 5px;
+}
+.card button:hover{
+    background-color: red;
+}
+.image_produc{
+    width: 100%;
+    border-radius: 25px;
+    height: 180px;
+}
+.precio_produc{
+    font-size: 28px;
+    color: #047b99;
+    font-weight: 700;
+}
+.delete_product{
+    float: right;
+    width: 25px;
+
+}
+.delete_product:hover{
+    color: red;
+}
+
+.seccion_form{
+    align-content: center;
+    max-width: 25%;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 50px;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+
+footer{
+    background-color: #ffffff;
+    text-align: center;
+    color: #000000;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+
+/*formulario*/
+
+input,
+textarea {
+width: 100%;
+padding: 5px;
+outline: none;
+border-radius: 10px;
+height: 30px;
+margin-bottom: 20px;
+
+}
+
+label {
+line-height: 1.9rem;
+display: none;
+}
+
+input[type="submit"] {
+transform: translate(2.2%);
+padding: 3px;
+margin-top: 0.6rem;
+font-family: cursive;
+font-weight: bold;
+font-size: 20px;
+height: 40px;
+width: 40%;
+float: left;
+color: #ffffff;
+background-color: #047b99;
+cursor: pointer;
+}
+
+input[type="reset"] {
+    transform: translate(2.2%);
+    padding: 3px;
+    margin-top: 0.6rem;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 20px;
+    height: 40px;
+    width: 40%;
+    float: right;
+    color: #047b99;
+    background-color: #ffffff;
+    cursor: pointer;
+    }
+
+fieldset {
+padding: 20px 40px;
+}
+
+@media (max-width: 850px){
+    .seccion_body{
+        flex-direction: column;
+    }
+    .productos{
+        max-width: 100%;
+        order: 2;
+    }
+    .seccion_form{
+        max-width: 100%;
+        order: 1;
+    }
+}

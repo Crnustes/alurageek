@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Aulra Geek</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo">ALURA GEEK</h1>
+    </header>
+    <section class="seccion_body">
+        <div class="productos">
+            <h2 class="titulos titulo_productos">MIS PRODUCTOS:</h2>
+
+            <p id="no-products-message" style="display: none;">No hay productos disponibles.</p>
+            <div class="seccion_products" id="productList">
+                
+                <!-- <div class="card">
+                    <img src="https://images.ctfassets.net/gtoyaf5jfz2g/3T5ToOyk5EidSQdTOhddK6/9a84a58bab0cdd3bdb3ab7c68e857888/32105.jpg"
+                        alt="" class="image_produc">
+                    <h3 class="titulo_produc">Prueba producto 1</h3>
+                    <p class="precio_produc"> $1000</p>
+                    <a href="#"><img src="./icons/borrar.png" alt="" class="delete_product"></a>
+                </div> -->
+                
+               
+            </div>
+        </div>
+
+        <div class="seccion_form">
+
+            <h2 class="titulos titulo_form">AGREGAR PRODUCTO:</h2>
+            <form id="productForm">
+                
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" placeholder="Nombre del producto" required/>
+                 
+                    <label for="price">Precio:</label>
+                    <input type="text" id="price" name="price" placeholder="Precio" required/>
+                  
+                    <label for="url">Imagen:</label>
+                    <input type="url" id="image" name="image" placeholder="Pega la URL" required>
+                 
+                    <input type="submit" value="Enviar" class="submit-btn" />
+                 
+                    <input type="reset" value="Limpiar" class="reset" />
+                 
+              </form>
+        </div>
+    </section>
+    <footer>
+        <h1 class="titulo">ALURA GEEK</h1>
+        <h4 class="text_footer">Desarrollado por <a href="http://cristian.click" target="_blank"> CRISTIAN ÑUSTES</a>
+        </h4>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
